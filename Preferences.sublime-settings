@@ -1,0 +1,83 @@
+{
+	"auto_complete_delay": 10,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"color_scheme": "Packages/User/Son of Obsidian (SL).tmTheme",
+	"default_encoding": "Western (ISO 8859-1)",
+	"default_line_ending": "unix",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_white_space": "selection",
+	"enable_tab_scrolling": true,
+	"enable_telemetry": "disabled",
+	"fallback_encoding": "Western (ISO 8859-1)",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*.bak"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"*.bak"
+	],
+	"index_files": true,
+	"margin": 0,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		120
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
