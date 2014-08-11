@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+
+\$session->param('$1' => $2);
+
+]]>
+	</content>
+	<tabTrigger>session</tabTrigger>
+	<scope>source.perl</scope>
+
+</snippet>

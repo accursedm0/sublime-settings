@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+
+\$template->param('$1' => $2);
+
+]]>
+	</content>
+	<tabTrigger>template</tabTrigger>
+	<scope>source.perl</scope>
+
+</snippet>

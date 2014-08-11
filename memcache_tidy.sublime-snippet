@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+\$memcache->{use} && \$memcache->tidy_memcache( type => '${1:type_name} ', ${2:type_id_name} => ${3:type_id} );
+# type_name: vw_person, vw_company, reg_company, reg_person
+# type_id_name: person_id, company_id, type_id 
+]]></content>
+	<tabTrigger>tidy_memcache</tabTrigger>
+	<scope>source.perl</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
