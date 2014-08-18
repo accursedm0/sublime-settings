@@ -1,0 +1,21 @@
+{
+  "patterns": {
+    "TODO": "TODO[\\s]*?:+(?P<todo>.*)$",
+    "FIXME": "FIXME[\\s]*?:+(?P<fixme>.*)$"
+  },
+  "exclude_folders": [
+    "*.git*",
+    "*.svn"
+  ],
+  "exclude_files": [
+    "*.sublime-workspace",
+    "*.sublime-project",
+    "*.bak",
+    "*.log"
+  ],
+  "case_sensitive": false,
+  "render_include_folder": false,
+  "render_spaces": 1,
+  "navigation_forward_skip" : 10,
+  "navigation_backward_skip" : 10
+}
