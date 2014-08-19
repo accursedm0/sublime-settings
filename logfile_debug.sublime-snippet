@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-
 \$logfile && \$logfile->debug( '$1 ' . Data::Dumper->Dump([ $2 ]) );
-
 ]]>
 	</content>
 	<tabTrigger>log</tabTrigger>

@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-
 \$cgi->param(-name => '$1', -value => $2);
-
 ]]>
 	</content>
 	<tabTrigger>cgi</tabTrigger>

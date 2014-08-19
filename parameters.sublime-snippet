@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+my %parameters = validate(@_, {
+  $1 => { as '$2', optional => $3, default $4},
+});
+]]>
+	</content>
+	<tabTrigger>param</tabTrigger>
+	<scope>source.perl</scope>
+
+</snippet>
