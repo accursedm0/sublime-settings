@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$session->param('$1' => $2);
+\$session->param($1 => $2);
 ]]>
 	</content>
 	<tabTrigger>session</tabTrigger>
