@@ -3,21 +3,24 @@
 ###################################################
 #              $1                   #
 ###################################################
-=pod 
+
+=pod
 
 =head2 $1
 
 =over 2
 
 =item Request
-	$1($2        => ${5: param_description})
 
+$1($2 => ${5: param_description})
 
 =item Description
-	${6: item_description}
+
+${6: item_description}
 
 =item Return
-	${7: item_return}
+
+${7: item_return}
 
 =back
 
@@ -25,16 +28,16 @@
 
 sub ${1:function_name} {
   \$logfile && \$logfile->debug( 'B ' . Data::Dumper->Dump([ \@_ ]) );
-  
+
   # Attribute
   my \$self = shift;
-  
+
   my %parameters = validate(@_, {
                      ${2:param} => { as '${3:param_type}', ${4:param_default} }
                    });
-                 
+
   # Objekte
- 
+
 	# implementation
 
   \$logfile && \$logfile->debug( ' E ');

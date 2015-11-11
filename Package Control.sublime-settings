@@ -1,26 +1,28 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
 		"ApacheConf.tmLanguage",
-		"AutoFileName",
 		"BracketHighlighter",
 		"CursorRuler",
 		"Emmet",
+		"Git Conflict Resolver",
 		"Grandson-of-Obsidian",
 		"HTML-CSS-JS Prettify",
 		"ModernPerl",
-		"Mustang Extended Color Scheme",
 		"Package Control",
-		"PHP Modern",
-		"ShowEncoding",
 		"SimpleClone",
 		"SublimeLinter",
 		"Sublimerge Pro",
 		"Tab Filter",
+		"Theme - Elementary",
 		"Theme - Soda",
 		"Todo",
 		"TodoReview",
-		"TortoiseSVN"
+		"xpath"
 	]
 }
